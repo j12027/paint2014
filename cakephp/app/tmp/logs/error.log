@@ -5928,3 +5928,12 @@ Stack Trace:
 #1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-03-03 09:41:11 Error: [MissingControllerException] Controller class LocationsController could not be found.
+Exception Attributes: array (
+  'class' => 'LocationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/locations
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

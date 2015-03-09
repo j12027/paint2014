@@ -1,0 +1,129 @@
+/* ボディの設定 */
+body{
+	margin:0px;
+	font-size:120%;
+}
+
+/* テーブルの設定 */
+table{
+	margin:0 auto;
+	border-collapse:collapse;
+}
+/* テーブルデータの設定 */
+td{
+	padding:10px;
+	width:200px;
+}
+
+/* 画像の設定 */
+td img{
+	width:200px;
+	height:200px;
+	border:#dddddd solid 1px;
+}
+
+form{
+	display:inline;
+}
+
+button{
+	padding:10px 15px;
+	border:#dddddd solid 1px;
+	background-color:#eeeeee;
+	font-weight:bold;
+}
+
+button:hover{
+	border:#ffff00 solid 1px;
+	background-color:#ffcc00;
+}
+
+/* 一般リンクの設定 */
+a{
+	text-decoration: none;
+	color:#555555;
+}
+
+a:hover{
+	color:#88aa00;
+}
+
+/* リストの設定 */
+ul{
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+	left:50%;
+	font-weight:bold;
+}
+
+li{
+	list-style-type:none;
+	margin:0px 2px;
+	width:50px;
+	height:50px;
+	border:#dddddd solid 1px;
+	color:#994400;
+	background-color:#ffcc00;
+	text-align:center;
+	line-height:50px;
+	position:relative;
+	left:-50%;
+	float:left;
+}
+
+li a{
+	text-decoration: none;
+	display:inline-block;
+	width:50px;
+	height:50px;
+	color:#bbbbbb;
+	background-color:#ffffff;
+}
+
+li a:hover{
+	color:#88aa00;
+	background-color:#ddff55;
+}
+
+/* div id="top"の設定 */
+#top{
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:888px;
+}
+
+/* div id="header"の設定 */
+#header{
+	margin-bottom:30px;
+	height:150px;
+	border-bottom:#bbbbbb solid 1px;
+}
+
+/* div id="listPosition"の設定 */
+#listPosition{
+	margin-top:20px;
+	margin-bottom:20px;
+	position:relative;
+	overflow:hidden;
+}
+
+/* div id="goodForm"の設定 */
+#goodForm{
+	margin:0 auto;
+	padding-top:10px;
+	color:#555555;
+	font-weight:bold;
+}
+
+/* div id="footer"の設定 */
+#footer{
+	margin-top:30px;
+	padding-top:100px;
+	padding-bottom:20px;
+	border-top:#bbbbbb solid 1px;
+	color:#888888;
+	text-align:center;
+}
